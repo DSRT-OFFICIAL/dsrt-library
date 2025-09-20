@@ -1,10 +1,15 @@
-// Import specific modules
-import { Vector3, Matrix4, Quaternion, Red } from './math';
+// VECTORS
+export { Vector2, Vector3, Vector4 } from './vectors/index.js';
 
-// Pakai default object
-import MathLib from './math';
+// MATRICES
+export { Matrix2, Matrix3, Matrix4 } from './matrices/index.js';
 
-const v = new MathLib.Vector3(1, 2, 3);
-const m = new MathLib.Matrix4().identity();
-const q = MathLib.Quaternion.identity();
-const color = MathLib.Red;  // '#ff0000'
+// QUATERNION
+export { default as Quaternion } from './Quaternion.js';
+
+// DEFAULT EXPORT
+export default {
+  Vector2, Vector3, Vector4,
+  Matrix2, Matrix3, Matrix4,
+  Quaternion
+};
