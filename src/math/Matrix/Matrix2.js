@@ -6,8 +6,8 @@ export default class Matrix2 {
 
   identity() {
     const e = this.elements;
-    e[0] = 1; e[2] = 0;
-    e[1] = 0; e[3] = 1;
+    e[0] = 1; e[1] = 0;
+    e[2] = 0; e[3] = 1;
     return this;
   }
 
