@@ -1,5 +1,5 @@
-export { default as ShaderChunk } from './ShaderChunk.js';
 export { default as ShaderLib } from './ShaderLib.js';
+export { default as ShaderChunk } from './ShaderChunk.js';
 
 export { default as BasicShader } from './BasicShader.js';
 export { default as LambertShader } from './LambertShader.js';
